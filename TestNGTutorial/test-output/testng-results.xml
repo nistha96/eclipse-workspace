@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="16" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-22T08:27:20 PDT" name="Loan Department" finished-at="2021-03-22T08:27:20 PDT" duration-ms="410">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.loan()[pri:0, instance:Test.day2@2f465398]" name="loan" class="Test.day2"/>
+        <method signature="day4.WebloginHomeLoan()[pri:0, instance:Test.day4@6a6afff2]" name="WebloginHomeLoan" class="Test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-03-22T08:27:20 PDT" name="Personal Loan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="115">
+      <class name="Test.day2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:Test.day2@2f465398]" started-at="2021-03-22T08:27:20 PDT" name="prerequiste" finished-at="2021-03-22T08:27:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="loan()[pri:0, instance:Test.day2@2f465398]" started-at="2021-03-22T08:27:20 PDT" name="loan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loan -->
+        <test-method signature="personalhomeloan(java.lang.String)[pri:0, instance:Test.day2@2f465398]" started-at="2021-03-22T08:27:20 PDT" name="personalhomeloan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalhomeloan -->
+      </class> <!-- Test.day2 -->
+      <class name="Test.Begin">
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:Test.Begin@623a8092]" started-at="2021-03-22T08:27:20 PDT" name="Demo" finished-at="2021-03-22T08:27:20 PDT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Test.Begin@623a8092]" started-at="2021-03-22T08:27:20 PDT" name="lastexecution" finished-at="2021-03-22T08:27:20 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Test.Begin -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2021-03-22T08:27:20 PDT" name="Home Loan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="54">
+      <class name="Test.day3">
+        <test-method is-config="true" signature="Bfsuit()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bfsuit" finished-at="2021-03-22T08:27:20 PDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuit -->
+      </class> <!-- Test.day3 -->
+      <class name="Test.day4">
+        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:Test.day4@6a6afff2]" started-at="2021-03-22T08:27:20 PDT" name="LoginAPIHomeLoan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan(java.lang.String)[pri:0, instance:Test.day4@6a6afff2]" started-at="2021-03-22T08:27:20 PDT" name="MobileLoginHomeLoan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[homeloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:Test.day4@6a6afff2]" started-at="2021-03-22T08:27:20 PDT" name="WebloginHomeLoan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- Test.day4 -->
+      <class name="Test.Begin">
+        <test-method is-config="true" signature="Afsuit()[pri:0, instance:Test.Begin@623a8092]" started-at="2021-03-22T08:27:20 PDT" name="Afsuit" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuit -->
+      </class> <!-- Test.Begin -->
+    </test> <!-- Home Loan -->
+    <test started-at="2021-03-22T08:27:20 PDT" name="Car Loan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="130">
+      <class name="Test.day3">
+        <test-method is-config="true" signature="Bclass()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bclass" finished-at="2021-03-22T08:27:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bclass -->
+        <test-method is-config="true" signature="Bmethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bmethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod -->
+        <test-method signature="WebloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="WebloginCarLoan" finished-at="2021-03-22T08:27:20 PDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Amethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="Bmethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bmethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod -->
+        <test-method signature="multipleCase(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="multipleCase" data-provider="getData" finished-at="2021-03-22T08:27:20 PDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleCase -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Amethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="Bmethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bmethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod -->
+        <test-method signature="multipleCase(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="multipleCase" data-provider="getData" finished-at="2021-03-22T08:27:20 PDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleCase -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Amethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="Bmethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bmethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod -->
+        <test-method signature="multipleCase(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="multipleCase" data-provider="getData" finished-at="2021-03-22T08:27:20 PDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleCase -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Amethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="Bmethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Bmethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod -->
+        <test-method signature="APICarLoan()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="APICarLoan" finished-at="2021-03-22T08:27:20 PDT" depends-on-methods="Test.day3.WebloginCarLoan" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLoan -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Amethod" finished-at="2021-03-22T08:27:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="Aclass()[pri:0, instance:Test.day3@e1de817]" started-at="2021-03-22T08:27:20 PDT" name="Aclass" finished-at="2021-03-22T08:27:20 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aclass -->
+      </class> <!-- Test.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
